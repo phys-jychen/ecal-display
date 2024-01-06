@@ -24,12 +24,16 @@ Before executing, you probably need to modify the files. The terms include: name
 
 If you need an event display with hit energy also displayed (more recommended): In the directory your have installed, run
 ```shell
-python event_display.py
+./run.sh
 ```
-to obtain a figure of event display, which will be saved in `figs/`.
+to obtain a figure of event display, which will be saved in directory set in `run.sh`. (Do not worry about the warning! :stuck_out_tongue:)
 
 If you only need an event display of the positions of the hits: Similar to the method shown above, execute
 ```shell
 python display.py
 ```
 to obtain a figure of event display, which will also be saved in `figs/`.
+
+## Change Log
+### 6 January 2024
+Added a shell script for execution, via which more parameters could be assigned.
